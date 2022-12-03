@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignStart=""
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="211dp"
+        android:layout_height="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <EditText
+        android:id="@+id/editpeso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite sua Altura"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="false"
+        android:text="CALCULAR"
+        android:textColorLink="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:text="CALCULADORA DE IMC"
+        android:textColor="#4A357D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <EditText
+        android:id="@+id/editpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu Peso"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="378dp" />
+
+</android.support.constraint.ConstraintLayout>
